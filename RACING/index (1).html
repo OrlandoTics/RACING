@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ingresar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/da18bd024b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/estilo2.css" />
+  </head>
+
+  <body>
+
+    <div class="izquierda">
+      <div class="quecarrera">
+        <h2 class="tituloqc">¿Qué carrera quieres estudiar?</h2>
+        <p class="mensaje">Descubre con nosotros cómo son realmente las carreras que te interesan.
+          <br>
+          ¡Encuentra lo que te apasiona y estudia lo que más te gusta!
+        </p>
+        <img class="mp" src="./img/imageningresar.jpg" alt="mujer preguntandose">
+      </div>
+      
+    </div>
+
+    <div class="derecha">
+    <form action="formu.php" class="formulario" method="POST">
+      <h1>Ingresar</h1>
+      <div class="contenedor">
+        <div class="input-contenedor">
+          <i class="fas fa-envelope icon"></i>
+          <input
+          type="text"
+          placeholder="Correo electrónico"
+          name="email"
+          required
+          />
+        </div>
+
+        <div class="input-contenedor">
+          <i class="fas fa-key icon"></i>
+          <input
+          type="password"
+          placeholder="Contraseña"
+          name="password"
+          required
+          />
+        </div>
+
+        <input
+        type="submit"
+        value="Iniciar sesión"
+        class="button"
+        name="btningresar"
+        />
+        <p>
+        ¿Aún no tienes una cuenta?
+        <a class="link" href="registrar.html">Crear una nueva</a>
+       </p>
+      </div>
+    </form>
+   </div>
+  </body>
+</html>

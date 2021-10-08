@@ -1,0 +1,218 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-family: Helvetica;
+    width: 100%;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+
+#menu li>a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+}
+#menu>li{
+    float: left;
+    text-align:center
+}
+#menu>li>div.dropdown-menu{
+    display: none;
+}
+#menu>li:hover>div.dropdown-menu {
+    display:block;
+}
+
+nav div ul li a{
+    margin-left: 15px;
+}
+
+.divider{
+    width: 450px;
+    border-top: 5px solid #850d1d;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cover{
+    height: 400px;
+    background-image: url(../img/principal1.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.cover-small{
+    height: 200px;
+    background-blend-mode: normal;
+}
+
+.card-title{
+    min-height: 3rem;
+}
+
+.card-text{
+    min-height: 6rem;
+}
+
+.cover button{
+    background-color: #850d1d;
+    border: none;
+
+}
+
+.carrerasmas h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 36px;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.secciones {
+    width: 77%;
+    margin-top: 30px;
+    grid-row-gap: 20px;
+    grid-column-gap: 27px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.seccion {
+    margin-left: 150px;
+    margin-right: 50px;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    -webkit-box-shadow: 0px 0px 12px rgb(0 0 0 / 12%);
+    box-shadow: 0px 0px 12px rgb(0 0 0 / 12%);
+}
+
+.secciontext {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #040123;
+    text-decoration: none;
+}
+
+.card{
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.regresar{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+
+
+
+
+.divider2{
+    width: 900px;
+    border-top: 5px solid #850d1d;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.cover1{
+    height: 400px;
+    background-image: url(../img/joel-duncan-Iqa-WlbNjqs-unsplash.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.cover2{
+    height: 400px;
+    background-image: url(../img/scott-graham-5fNmWej4tAA-unsplash\ \(1\).jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+
+
+
+.area{
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+.area a{
+    margin-top: 50px;
+    margin-right: 30px;
+    
+}
+
+.area{
+    text-align: center;
+}
+.imagen{
+    float: right;
+    width: 300px;
+    height: 50px;
+    margin-right: 100px;
+    margin-top: 15px
+}
+
+.divider3{
+    text-align: center;
+    width: 900px;
+    border-top: 5px solid #850d1d;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.cover3{
+    height: 400px;
+    background-image: url(../img/alvaro-reyes-qWwpHwip31M-unsplash.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+
+}
